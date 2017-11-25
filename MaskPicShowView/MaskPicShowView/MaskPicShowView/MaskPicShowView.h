@@ -17,8 +17,8 @@
  @param seletedIndex 当前显示第几个
  @return 创建的对象
  */
-+ (instancetype)maskPicShowImages:(NSArray *)imageArrays seletedIndex:(NSInteger)seletedIndex;
++ (instancetype)maskPicShowImages:(NSArray<UIImage *> *)imageArrays seletedIndex:(NSInteger)seletedIndex;
 
-- (instancetype)initWithimages:(NSArray *)imageArrays seletedIndex:(NSInteger)seletedIndex;
+- (instancetype)initWithimages:(NSArray<UIImage *> *)imageArrays seletedIndex:(NSInteger)seletedIndex;
 
 @end

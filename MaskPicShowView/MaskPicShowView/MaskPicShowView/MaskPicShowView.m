@@ -23,12 +23,12 @@
 
 @implementation MaskPicShowView
 
-+ (instancetype)maskPicShowImages:(NSArray *)imageArrays seletedIndex:(NSInteger)seletedIndex{
++ (instancetype)maskPicShowImages:(NSArray<UIImage *> *)imageArrays seletedIndex:(NSInteger)seletedIndex{
     MaskPicShowView *maskView = [[MaskPicShowView alloc] initWithimages:imageArrays seletedIndex:seletedIndex];
     return maskView;
 }
 
-- (instancetype)initWithimages:(NSArray *)imageArrays seletedIndex:(NSInteger)seletedIndex{
+- (instancetype)initWithimages:(NSArray<UIImage *> *)imageArrays seletedIndex:(NSInteger)seletedIndex{
     self = [super initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight)];
     if (self) {
         self.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.8];
